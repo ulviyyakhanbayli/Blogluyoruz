@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(249, 249, 249);
+  letter-spacing: 0.025rem;
+}
+a {
+  color:rgb(86, 85, 85);
+}
+
+/********** Navbar - Start ********/
+.navbar-x {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #fff9f7;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 0 80px;
+}
+.navbar-left .logo {
+  width: 180px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-x li {
+  display: inline-block;
+  margin: 25px;
+  position: relative;
+  left: 800px;
+}
+.navbar-x li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar-x li a:hover {
+  text-decoration: underline;
+}
+/********** Navbar - End ***********/
+
+/******* Footer - Start *********/
+.footer-x {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dbdbdb;
+  padding: 24px 80px;
+}
+.footer-right {
+  display: flex;
+  gap: 19px;
+}
+
+/******* Footer - End *********/
+
+/********* Home - Start *********/
+.carousel-position {
+  padding: 80px 80px 0 80px;
+}
+.carousel-image {
+  height: 600px;
+}
+
+.title {
+  padding: 50px;
+  text-align: center;
+}
+
+.home-container {
+  background-color: rgb(249, 249, 249);
+  padding: 50px 80px;
+}
+
+.content {
+  display: flex;
+  gap: 48px;
+}
+
+.text {
+  text-align: justify;
+  width: 50%;
+}
+/********** Home - End *************/
+
+/* Blog - Star */
+.blog-container {
+  padding: 50px 80px;
+}
+
+.card-container-x {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+/* Blog - End */
+
+/***** Blog-1 - Start *******/
+.container-x {
+  text-align: justify;
+  padding: 64px 80px;
+}
+.image {
+  margin: 48px 0;
+  text-align: center;
+}
+.blog-title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+/******* Blog-1 - End *********/
+
+/******* Contact - Start *********/
+.contact-page {
+  padding: 50px 80px;
+}
+.cont-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cont-title {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.cont-right {
+  width: 50%;
+}
+.cont-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+/******* Contact - End *********/
